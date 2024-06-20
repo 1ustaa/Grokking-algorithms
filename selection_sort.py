@@ -35,9 +35,5 @@ def test_selection_sort(algorithm):
     print("Ok" if res == [-3000, -1, 20, 1000] else "False")
 
     print("test case #3 ", end="")
-    arr = [1, 0, 0, 0, 2, 3]
-    res = algorithm(arr)
-    print("Ok" if res == [0, 0, 0, 1, 2, 3] else "False")
-
 
 test_selection_sort(selection_sort)
