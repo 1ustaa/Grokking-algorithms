@@ -7,8 +7,7 @@ def summ(arr):
     if not arr:
         return 0
     else:
-        num = arr.pop()
-        return num + summ(arr)
+        return arr[0] + summ(arr[1:])
 
 
 def test_summ(algorithm):
